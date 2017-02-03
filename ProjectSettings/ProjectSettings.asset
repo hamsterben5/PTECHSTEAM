@@ -460,10 +460,10 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Build: 1
+    Build: 0
     Collab: 1
     UNet: 1
-  cloudProjectId: 307a6a2c-d098-4e8b-b832-0629be986fb3
-  projectName: New Unity Project (1)
-  organizationId: xopherthewarrior
+  cloudProjectId: fae94f55-6bde-42d7-a88b-cf8a1cf17872
+  projectName: New Unity Project
+  organizationId: zach_sarvey
   cloudEnabled: 0
