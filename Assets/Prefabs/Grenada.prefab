@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5cd7f125691a44ebb2fbd1ad907f12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blastradius: 6
-  explosionPower: 500
+  blastradius: 0.1
+  explosionPower: 10000
   explosionLayer:
     serializedVersion: 2
     m_Bits: 4294967007
