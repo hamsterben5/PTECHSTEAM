@@ -589,10 +589,8 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   xboxOneScriptCompiler: 0
-  vrEditorSettings:
-    daydream:
-      daydreamIconForeground: {fileID: 0}
-      daydreamIconBackground: {fileID: 0}
+  vrEditorSettings: {daydream: {daydreamIconForeground: {fileID: 0}, daydreamIconBackground: {
+        fileID: 0}}}
   cloudServicesEnabled:
     Build: 0
     Collab: 1
