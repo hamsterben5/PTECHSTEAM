@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2316028}
   - component: {fileID: 5445806}
   - component: {fileID: 19502158}
-  - component: {fileID: 11459300}
+  - component: {fileID: 114386829922630388}
   m_Layer: 0
   m_Name: EvilCube
   m_TagString: Enemy
@@ -99,18 +99,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &11459300
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 107560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8c022a69403d5d41a84cae46739fcee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionLayer: {}
 --- !u!195 &19502158
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -142,3 +130,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 107560}
   m_IsPrefabParent: 1
+--- !u!114 &114386829922630388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c49013482603b4eb4e41f12025c1e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionLayer:
+    serializedVersion: 2
+    m_Bits: 256

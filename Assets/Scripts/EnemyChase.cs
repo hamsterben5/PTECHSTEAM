@@ -9,7 +9,7 @@ public class EnemyChase : MonoBehaviour
     private Collider[] hitColliders;
     private float checkRate;
     private float nextCheck;
-    private float detectionRadius = 25;
+    private float detectionRadius = 75;
 
 
 
