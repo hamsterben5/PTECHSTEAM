@@ -1,31 +1,27 @@
-﻿private var startTime;
-var textTime : String;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-
-function Awake()
+public class Timer : MonoBehaviour
 {
 
+    public Text counterText;
 
-    startTime = Time.time;
+    public float seconds, minutes;
 
 
+    void Start()
+    {
+        counterText = GetComponent<Text>() as Text;
+    }
+
+
+    void Update()
+    {
+        minutes = (int)(Time.timeSinceLevelLoad / 60f);
+        seconds = (int)(Time.timeSinceLevelLoad % 60f);
+        counterText.text = minutes.ToString("00") + ":" + seconds.ToString("00");
+    }
 }
 
-
-function OnGUI()
-{
-
-
-    var guiTime = Time.time - startTime;
-
-
-    var minutes : int = guiTime / 60;
-    var seconds : int = guiTime % 60;
-    var fraction : int = (guiTime * 100) % 100;
-
-
-    text = String.Format("{0:00}:{1:00}:{2:000}", minutes, seconds, fraction);
-    GUI.Label(Rect(400, 25, 100, 30), textTime);
-
-
-}
