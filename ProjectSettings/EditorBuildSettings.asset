@@ -9,3 +9,7 @@ EditorBuildSettings:
     path: Assets/Main Menu.unity
   - enabled: 1
     path: Assets/MazeOfSchemes.unity
+  - enabled: 1
+    path: Assets/DeadScene.unity
+  - enabled: 1
+    path: Assets/WinScene.unity

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f206091e09ac08e43824497847ca7042
+timeCreated: 1487725829
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bad Mofo
+  fontNames:
+  - Bad Mofo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
