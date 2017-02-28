@@ -1,5 +1,5 @@
 ﻿#pragma strict
 
 function PlayGame () {
-    Application.LoadLevel(0);
+    Application.LoadLevel(0 );
 }
