@@ -1,5 +1,6 @@
 ﻿#pragma strict
+import UnityEngine.SceneManagement;
 
 function PlayGame () {
-		Application.LoadLevel(1);
+		SceneManager.LoadScene (1);
 }
