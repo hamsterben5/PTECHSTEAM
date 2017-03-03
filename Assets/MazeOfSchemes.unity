@@ -2319,7 +2319,7 @@ Animator:
   m_GameObject: {fileID: 1147424391}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 59444e40957a62041a821b28a62bac84, type: 3}
-  m_Controller: {fileID: 9100000, guid: 3e64cb4e7e005544bac7e7584b9f1901, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7cf1ac64918dce842a3bfb853897737e, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2366,7 +2366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!195 &1147424395
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4365,7 +4365,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 136.7
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4373,7 +4373,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 123.8
+      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.x
