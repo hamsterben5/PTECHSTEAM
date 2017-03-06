@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3d88f1d3af8ae3f4395596fca93fe83f
+timeCreated: 1488566471
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ParaAminobenzoic
+  fontNames:
+  - ParaAminobenzoic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
