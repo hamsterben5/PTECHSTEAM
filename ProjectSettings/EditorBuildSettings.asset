@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/DeadScene.unity
   - enabled: 1
     path: Assets/WinScene.unity
+  - enabled: 1
+    path: Assets/Round2.unity

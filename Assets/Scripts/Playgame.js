@@ -2,5 +2,5 @@
 import UnityEngine.SceneManagement;
 
 function PlayGame () {
-		SceneManager.LoadScene (1);
+    SceneManager.LoadScene (1);
 }
