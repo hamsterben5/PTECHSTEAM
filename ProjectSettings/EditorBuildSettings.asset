@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Round2.unity
   - enabled: 1
     path: Assets/FinalBoss.unity
+  - enabled: 1
+    path: Assets/Credits.unity
